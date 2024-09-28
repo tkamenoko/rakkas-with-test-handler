@@ -1,12 +1,15 @@
 {
   "name": "rakkas-with-test-handler",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "bug reproduction",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rakkas build",
+    "dev": "rakkas dev",
+    "serve": "node ./dist/server",
+    "test": "vitest run"
   },
-  "author": "",
+  "author": "T. Kameyama <tkamenoko@vivaldi.net>",
   "license": "MIT",
   "dependencies": {
     "rakkasjs": "0.7.0-next.49",
