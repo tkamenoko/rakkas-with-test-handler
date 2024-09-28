@@ -9,7 +9,6 @@ export default defineConfig(async () => {
     test: {
       environment: "node",
       include: ["tests/**/*.test.{ts,tsx}"],
-      setupFiles: ["tests/setup/polyfill.ts"],
     },
   } satisfies UserConfig;
 
