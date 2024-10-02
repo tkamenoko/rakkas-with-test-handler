@@ -2,6 +2,12 @@
 
 Running `vitest` with `rakkasjs` and `@hattip/adapter-test` throws an error.
 
+## Setup
+
+Clone this repo and run `npm install` .
+
+## Output
+
 ```shell-session
 $ npm run test
 
